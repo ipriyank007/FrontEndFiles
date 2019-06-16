@@ -1,0 +1,115 @@
+/*Choose a cool Font Text Scheme*/
+
+body{
+  background: -webkit-linear-gradient(rgba(55, 55, 25, 0), rgba(25, 100, 55, 1));
+}
+
+h1{
+  font-family: 'Permanent Marker';
+  text-align: center;
+}
+
+/*Choose a color palette from here:
+https://coolors.co/
+or create your own here:
+paletton.com/*/
+
+/*
+Colors:
+
+#247BA0
+#70C1B3
+#B2DBBF
+#F3FFBD
+#FF1654
+
+*/
+
+.art{
+  margin: auto;
+}
+
+
+td{
+  height: 200px;
+  padding: 100px;
+  border: 6px solid white;
+}
+
+#one{
+  /* background-color: #247BA0; */
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fstore-images.s-microsoft.com%2Fimage%2Fapps.50744.13620573475464507.9a51f97d-cbd4-427c-a275-2c2017a591e8.87f95465-847f-4f84-a39f-f6a176ad99c6%3Fmode%3Dcrop%26q%3D90%26h%3D300%26w%3D300%26format%3Djpg&f=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  /* position: absolute; */
+  transition: 400ms;
+  transition-timing-function: cubic-bezier(.6,-0.28,.74,.05);
+
+}
+
+#two{
+  background-color: #70C1B3;
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fstore-images.s-microsoft.com%2Fimage%2Fapps.50744.13620573475464507.9a51f97d-cbd4-427c-a275-2c2017a591e8.87f95465-847f-4f84-a39f-f6a176ad99c6%3Fmode%3Dcrop%26q%3D90%26h%3D300%26w%3D300%26format%3Djpg&f=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: 400ms;
+}
+
+#three{
+  background-color: #B2DBBF;
+  transition: 400ms;
+}
+
+#four{
+  background-color: #F3FFBD;
+  transition: 400ms;
+}
+
+#five{
+  background-color: #FF1654;
+  transition: 400ms;
+}
+
+/* #one:hover{
+  background-color: #FF1654;
+  width: 20px;
+  transform: rotate(-15deg);
+}
+
+#two:hover{
+  background-color: #F3FFBD;
+  width: 20px;
+  transform: rotate(15deg);
+} */
+.now:hover #one{
+  background-color: #FF1654;
+  width: 20px;
+  transform: rotate(-15deg);
+}
+.now:hover #two {
+  background-color: #F3FFBD;
+  width: 20px;
+  transform: rotate(15deg);
+}
+
+
+
+#three:hover{
+  background-color: #247BA0;
+  width: 20px;
+  transform: rotate(15deg);
+}
+
+#four:hover{
+  background-color: #70C1B3;
+  width: 20px;
+  transform: rotate(15deg);
+}
+
+#five:hover{
+  background-color: #B2DBBF;
+  width: 20px;
+  transform: rotate(15deg);
+}
